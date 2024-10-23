@@ -127,7 +127,7 @@ After running the tests, **TestNG** automatically generates a report. You can fi
 
 Below is the project structure in Eclipse:
 
-![Project Structure](./src/test/resources/screenshots/project_structure.png)
+![Project Structure](./src/test/resources/screenshots/project-structure.png)
 
 ## TestNG Test Results
 
