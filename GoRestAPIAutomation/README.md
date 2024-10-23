@@ -52,8 +52,8 @@ git clone https://github.com/Ravivish1185/Qa-Engineering-challenge.git
 
 - Open `ApiService.java`.
 - Replace the placeholder `YOUR_ACCESS_TOKEN` with your actual GoRest API token:
-
-`Java private static final String ACCESS_TOKEN = "bf8abffe762cf663f8c8d61ef5285ac738d2f7c3d73625f03d048340a18c2249"; `
+- Get the API token from the .env file
+`Java private static final String ACCESS_TOKEN = "Bearer " + dotenv.get("GOREST_API_TOKEN");; `
 
 ## Project Structure
 

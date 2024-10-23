@@ -1,5 +1,6 @@
 package com.gorest.api;
 
+import io.github.cdimascio.dotenv.Dotenv;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 
@@ -11,9 +12,15 @@ import java.util.Map;
 import org.json.JSONObject;
 
 public class ApiService {
+	
+	// Load the environment variables from the .env file
+    private static final Dotenv dotenv = Dotenv.load();
+    
     // Base URL for the GoRest API. All endpoints will be appended to this URL.
     private static final String BASE_URL = "https://gorest.co.in/public/v2";
-    private static final String ACCESS_TOKEN = "Bearer bf8abffe762cf663f8c8d61ef5285ac738d2f7c3d73625f03d048340a18c2249";
+    
+ // Get the API token from the .env file
+    private static final String ACCESS_TOKEN = "Bearer " + dotenv.get("GOREST_API_TOKEN");
 
     /**
      * Creates a new user.
