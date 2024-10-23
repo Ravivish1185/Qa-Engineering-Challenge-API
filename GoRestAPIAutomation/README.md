@@ -40,7 +40,7 @@ Before setting up this project, ensure you have the following installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/gorest-api-tests.git
+git clone https://github.com/Ravivish1185/Qa-Engineering-challenge.git
 ```
 ### Step 2: Import the Project into Your IDE
 
