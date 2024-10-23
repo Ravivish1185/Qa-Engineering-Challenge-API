@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-23T15:36:25 CEST" name="Default suite" finished-at="2024-10-23T15:36:34 CEST" duration-ms="8509">
+    <groups>
+    </groups>
+    <test started-at="2024-10-23T15:36:25 CEST" name="Default test" finished-at="2024-10-23T15:36:34 CEST" duration-ms="8509">
+      <class name="com.gorest.tests.UserApiTests">
+        <test-method signature="testCreateUser()[pri:0, instance:com.gorest.tests.UserApiTests@7b98f307]" started-at="2024-10-23T15:36:25 CEST" name="testCreateUser" finished-at="2024-10-23T15:36:31 CEST" duration-ms="5713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUserDetails()[pri:0, instance:com.gorest.tests.UserApiTests@7b98f307]" started-at="2024-10-23T15:36:31 CEST" name="testGetUserDetails" finished-at="2024-10-23T15:36:32 CEST" depends-on-methods="com.gorest.tests.UserApiTests.testCreateUser" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetails -->
+        <test-method signature="testUpdateUser()[pri:0, instance:com.gorest.tests.UserApiTests@7b98f307]" started-at="2024-10-23T15:36:32 CEST" name="testUpdateUser" finished-at="2024-10-23T15:36:33 CEST" depends-on-methods="com.gorest.tests.UserApiTests.testGetUserDetails" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:0, instance:com.gorest.tests.UserApiTests@7b98f307]" started-at="2024-10-23T15:36:33 CEST" name="testDeleteUser" finished-at="2024-10-23T15:36:34 CEST" depends-on-methods="com.gorest.tests.UserApiTests.testUpdateUser" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- com.gorest.tests.UserApiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
